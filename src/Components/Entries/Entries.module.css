@@ -13,11 +13,11 @@
 }
 
 .active .entries {
-    background-color: #f660d7;
+    background-color: #ed6d64;
 }
 
 .passed .entries {
-    background-color: #fb5252;
+    background-color: #dfed64
 }
 
 .entries:active {
