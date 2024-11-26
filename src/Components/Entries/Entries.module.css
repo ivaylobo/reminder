@@ -1,0 +1,53 @@
+.entries {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    margin: 0 1rem 1.5rem;
+    text-decoration: none;
+}
+
+.active .entries {
+    background-color: #f660d7;
+}
+
+.passed .entries {
+    background-color: #fb5252;
+}
+
+.entries:active {
+    transform: scale(0.98);
+}
+
+.entryName {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.entryDate {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.entries > div{
+    max-width: 30%;
+    font-size: 1rem;
+}
+
